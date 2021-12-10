@@ -1,2 +1,4 @@
-# Statistical-Learning-Methods
-李航《统计学习方法》的算法python练习
+# 统计学习方法
+一个菜鸟学习李航《统计学习方法》算法的python练习
+
+第二章-感知机
