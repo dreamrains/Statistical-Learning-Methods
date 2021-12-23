@@ -34,7 +34,6 @@ class KdTree:
         y[y == 'Iris-setosa'] = 0
         y[y == 'Iris-versicolor'] = 1
         y[y == 'Iris-virginica'] = 2
-        plt.figure()
         plt.scatter(data['sepal length'][0:50], data['petal length'][0:50], color='red', marker='o', label='setosa-0')
         plt.scatter(data['sepal length'][50:100], data['petal length'][50:100], color='blue', marker='^',
                     label='versicolor-1')
@@ -106,6 +105,7 @@ if __name__ == '__main__':
     #                     [7, 2]])
     # data_y = np.array([1, 2, 3, 4, 5, 6])
     kdtree = KdTree()
+    plt.figure()
     data_x, data_y = kdtree.load_data()
     test_x = np.array([7, 6])
     kd_node = kdtree.build_tree(data_x, data_y)
