@@ -12,12 +12,12 @@ class NaiveBayes:
     def __init__(self, lamda=1):
         self.p_y = {}  # P(Y)的概率
         self.p_xy = {}  # P{X|Y}的概率
-        self.lamda = lamda
+        self.lamda = lamda  # lamda按照书中默认为1，为方便调试设置为变量
 
     # 专门计算各个概率的函数
     def cal_prob(self, cal_list, data_len):
         #  传进来的cal_data是个列表，专门用于计算事件的概率或条件概率
-        #  data_len在计算先验概率时对应数中的K，条件概率时为Sj，为了方便计算这里设置为变量
+        #  data_len在计算先验概率时对应书中的K，条件概率时为Sj，为了方便计算这里设置为变量
         keys = set(cal_list)
         p = {}
         for i in keys:
