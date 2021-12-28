@@ -4,7 +4,6 @@ Created on Thu Dec 16 17:21:02 2021
 
 @author: young
 
-本次的数据下载自：https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 """
 
 import numpy as np
