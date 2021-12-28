@@ -20,7 +20,7 @@ class Perceptron:
         return result
 
     def final(self, w, x, b):
-        return -(w[0] * x+b)/w[1]
+        return -(w[0] * x+b)/w[1]  # 这个最终的函数可以参看书中解释点到平面距离那里
 
     def train_basic(self):  # 感知机原始形式
         data_len = self._y.shape[-1]
