@@ -60,7 +60,7 @@ class Knn:
 if __name__ == '__main__':
     test = np.array([6.0, 3.2])
     knn = Knn()
-    pli.figure()
+    plt.figure()
     data_x, data_y = knn.load_data()
     group_result = knn.train(data_x, data_y, test)
     print("测试的数据属于分类{}".format(group_result))
