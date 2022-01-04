@@ -48,8 +48,8 @@ class Knn:
             distance_list.append(dis)
         k_list = np.argsort(distance_list)[:k]
         # 把预测数据对应位置的学习数据中分类标签的索引找到，对归属分类进行记录
-        lable_list = train_y[k_list]
-        result = np.argmax(np.bincount(lable_list.tolist()))
+        label_list = train_y[k_list]
+        result = np.argmax(np.bincount(label_list.tolist()))
         '''
         这里需要注意一下numpy中bincount这个方法，这个方法只能计算int类型且数值为正
         数的数据，所以用字符串或者负数来标记数据的时候需要注意
