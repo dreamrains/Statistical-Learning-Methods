@@ -68,7 +68,7 @@ if __name__ == "__main__":
     ]
     data_y = [-1, -1, 1, 1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, -1]
     test = [2, 'S']
-    naive_bayes = NaiveBayes(data_y)
+    naive_bayes = NaiveBayes()
     naive_bayes.train(data_x, data_y)
     p_result, label_result = naive_bayes.predict(test)
     print("测试的数据为{}，求得的分类概率为{},属于分类{}".format(test, p_result, label_result))
