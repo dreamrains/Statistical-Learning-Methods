@@ -8,5 +8,5 @@
 [第四章-朴素贝叶斯 贝叶斯估计](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/NaiveBayesMAP.py)  
 [第五章-决策树 ID3与C4.5生成决策树（暂不包括剪枝算法）](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/decisiontree.py)  
 [第五章-决策树 CART算法与CART剪枝学习中……]    
-决策树原理内容倒不是很难，但是用代码实现的时候问题就特别多，也是至今更新最慢的一章，主要原因还是我变成水平太菜了，不过我还是有信心能写出来的
+决策树原理内容倒不是很难，但是用代码实现的时候问题就特别多，也是至今更新最慢的一章，主要原因还是我编程水平太菜了，不过我还是有信心能写出来的  
 我实在是太菜了……学别人的代码都半天搞不懂的……
