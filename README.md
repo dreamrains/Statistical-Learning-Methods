@@ -2,8 +2,8 @@
 一个菜鸟学习李航《统计学习方法》算法的python练习
 
 [第二章-感知机 原始形式与对偶形式](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/perceptron.py)  
-[第三章-（1）K近邻法](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/knn.py)  
-[第三章-（2）K近邻法KD树](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/kdtree.py)  
+[第三章-K近邻法（1）K近邻法](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/knn.py)  
+[第三章-K近邻法（2）K近邻法KD树](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/kdtree.py)  
 [第四章-朴素贝叶斯 （1）极大似然估计](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/NaiveBayesMLE.py)  
 [第四章-朴素贝叶斯 （2）贝叶斯估计](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/NaiveBayesMAP.py)  
 [第五章-决策树 （1）ID3与C4.5生成决策树（暂不包括剪枝算法）](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/decisiontree.py)  
