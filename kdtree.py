@@ -63,9 +63,9 @@ class KdTree:
         left_y = data_label[data_input[:, split_axis] < split_point]
         right_x = data_input[data_input[:, split_axis] > split_point]
         right_y = data_label[data_input[:, split_axis] > split_point]
-        left = self.build_tree(left_x, left_y, depth + 1)
-        right = self.build_tree(right_x, right_y, depth + 1)
-        tree_node = Node(split_axis, node_x, node_y, left, right)
+        tree_node = Node(split_axis, node_x, node_y,)
+        tree_node.left = self.build_tree(left_x, left_y, depth + 1)
+        tree_node.right = self.build_tree(right_x, right_y, depth + 1)
         return tree_node
 
     # 搜索KD树
