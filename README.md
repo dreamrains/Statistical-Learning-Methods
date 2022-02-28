@@ -15,7 +15,8 @@
   - [（2）CART回归树](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/RegressionCART.py)  
   - [（3）CART分类树（暂不包括剪枝算法）](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/ClassificationCART.py)  
 - #### 第六章-逻辑斯蒂回归与最大熵模型  
-  - [（1）逻辑斯蒂回归]（https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/BinomialLogisticRegression.py）
+  - [（1）逻辑斯蒂回归](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/BinomialLogisticRegression.py)  
+
 最大熵模型学习中  
   
 历经一个月多，终于把逻辑斯蒂回归完成了啊！哭了，哭了。
