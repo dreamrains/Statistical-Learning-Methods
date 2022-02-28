@@ -15,7 +15,7 @@
   - [（2）CART回归树](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/RegressionCART.py)  
   - [（3）CART分类树（暂不包括剪枝算法）](https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/ClassificationCART.py)  
 - #### 第六章-逻辑斯蒂回归与最大熵模型  
-逻辑斯蒂回归学习中  
+  - [（1）逻辑斯蒂回归]（https://github.com/dreamrains/Statistical-Learning-Methods/blob/main/BinomialLogisticRegression.py）
+最大熵模型学习中  
   
-总算把决策树的三个主要算法完成了，剪枝就留到后续等我进一步了解以后再继续更新吧。接下去，逻辑斯蒂回归和最大熵模型！  
-我实在是太菜了……学别人的代码都半天搞不懂的……
+历经一个月多，终于把逻辑斯蒂回归完成了啊！哭了，哭了。
